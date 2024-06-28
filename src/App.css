@@ -1,0 +1,35 @@
+.task-list {
+  display: inline-grid;
+  align-items: center;
+}
+.App {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+
+}
+input, select {
+  height: 2em;
+    padding-left: 2em;
+    border-radius: 5px;
+    margin-right: 1em;
+}
+.addTask {
+  height: 3em;
+  width: 15em;
+  background-color: #26a726;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+}
+.markDone {
+  height: 3em;
+  width: 15em;
+  background-color: #3F51B5;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  margin-left: 1em;
+}
